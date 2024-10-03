@@ -1,0 +1,17 @@
+.columnContainer {
+  flex: 1;
+  border: 1px solid #ccc;
+  background-color: #fdfdfd;
+}
+
+.optionsList {
+  list-style: none;
+  padding: 0 10px;
+  size: 20px;
+  font-weight: 600;
+
+  & > li > input {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+}
